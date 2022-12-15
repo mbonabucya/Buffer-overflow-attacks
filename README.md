@@ -1,4 +1,7 @@
 # Buffer-overflow-attacks
+### Introduction
+When moving data from one location to another the data are stored in the temporary memory location called buffer. The buffer can be overwritten if the volume of the data exceeds the storage capacity of the memory buffer [1]. The Machine running the program that has the problem of the buffer overflow is the vulnerable and might be exploited to get the access to the machine. In this scenario, we shall exploit the vulnerability of the SLmail.exe that has the Buffer overflow problem to gain the access on the Windows 7.
+
 Applications that have BOF vulnerabilities SLmail, vulnserver and Brainpan
 
 ### Requirements
